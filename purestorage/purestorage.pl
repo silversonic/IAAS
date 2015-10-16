@@ -63,7 +63,7 @@ $client->setHost('https://sjc-purestorage1.gecis.io');
 
 #https://sjc-purestorage1.gecis.io/api/1.3/volume/SJC-BLK-BOS-CFMGT?space=true
 
-$client->POST( '/api/1.3/auth/session' , '{ "api_token" : "f9832b76-17f8-4f00-bd28-0817e597929e" }', {"Content-type" => 'application/json'} );
+$client->POST( '/api/1.3/auth/session' , '{ "api_token" : "foo" }', {"Content-type" => 'application/json'} );
 
 $client->GET( '/api/1.3/volume/SJC-BLK-BOS-CFMGT?space=true' );
 
